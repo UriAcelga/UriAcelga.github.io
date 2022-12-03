@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Uriel Gomez">
+    <meta name="description" content="Portfolio de Desarrollo Web">
+    <meta name="keywords" content="HTML5, CSS, Python, SQL">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Uriel Gomez | Desarrollo Web</title>
+    <link rel="icon" type="image/x-icon" href="images/uriel.png">
+    
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">      
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md py-0">
+      <div class="container-fluid h-100 w-100">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#hero">
+              <i id="logo-principal" class="bi bi-briefcase-fill" alt="logo"></i>
+          </a>
+          <ul class="navbar-nav justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conocimientos">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="hero" class="hero align-items-center">
+      <div>
+        <img src="images/uriel.png" alt="foto de uriel gomez" id="perfil">
+        <h1>👋 Hola! soy Uriel Gomez</h1>
+        <h2 class="mx-4 h3">Desarrollo sitios web con Python. Tengo experiencias con bases de datos SQL complementadas con HTML y CSS para la creación de proyectos.</h2>
+      </div>
+      <div class="boton-contacto">
+        <a href="mailto:urigomez2002@gmail.com" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-primary w-75">
+            <span class="section-title">¡Contáctame!</span> 
+            <i class="bi bi-envelope-at-fill"></i>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <section id="conocimientos" class="conocimientos align-items-center pb-5">
+      <h2 class="mt-5 section-title">Conocimientos</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="card tec">
+              <h2 class="pt-3">Tecnologías<br>principales</h2>
+              <p class="mx-4" id="card-p1">Me especializo en desarrollo web con Django y Bases de Datos SQL. Estas tecnologías me ayudan a llevar a cabo mis proyectos.</p>
+              <div class="pb-3">
+                <img src="images/html-1.svg" class="img-w mx-2" alt="HTML">
+                <img src="images/css-3.svg"  class="img-w mx-2" alt="CSS">
+                <img src="images/django.svg"  class="img-w mx-2" alt="Django">
+                <img src="images/microsoft-sql-server-1.svg"  class="img-w mx-2" alt="SQL Server">
+              </div>
+            </div> 
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card tec">
+              <h2 class="pt-3">Herramientas<br>complementarias</h2>
+              <p class="mx-4">Si bien mi fuerte es el desarrollo de aplicaciones web, estas tecnologías me ayudan a embarcar todo tipo de situaciones analíticamente.</p>
+            
+              <div class="pb-3">
+                <img src="images/c-1.svg" class="img-w mx-2" alt="C">
+                <img src="images/logo-javascript.svg" class="img-w mx-2" alt="Javascript">
+                <img src="images/python-5.svg" class="img-w mx-2" alt="Python">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="proyectos d-flex flex-column">
+      <h2 class="mt-5 section-title">Mis Proyectos</h2>
+      <div class="container text-center pt-3 mb-5">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="images/Pong.png" alt="Pong con HTML Canvas">
+              <div class="overlay">
+                <p>"Pong" con HTML Canvas y JS</p>
+                <p><em>Udemy: Code Your First Game - Chris DeLeon</em></p>
+                <div class="overlay-icons">
+                  <a href="https://github.com/UriAcelga/Pong-con-HTML-Canvas-y-JS" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="mx-auto" src="images/dado tkinter.png" alt="Pong con HTML Canvas">
+              <div class="overlay">
+                <p>Dado de 6 Caras</p>
+                <p><em>Tkinter</em></p>
+                <div class="overlay-icons">
+                  <a href="https://github.com/UriAcelga/Dado-con-tkinter" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>                
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto pt-4">
+              <img src="images/indumentaria.png" alt="Pong con HTML Canvas">
+              <div class="overlay pt-4">
+                <p>Indumentariaonline</p>
+                <p><em>Web Shop con Django</em></p>
+                <div class="overlay-icons">
+                  <a href="https://github.com/UriAcelga/Indumentariaonline" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>              
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto pt-2">
+              <img src="images/Dólar API.png" alt="Pong con HTML Canvas">
+              <div class="overlay">
+                <p>Precio del dólar</p>
+                <p><em>Script en Python con API</em></p>
+                <div class="overlay-icons">
+                  <a href="https://github.com/UriAcelga/Precio-dolar-Python" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>                  
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-lg-6">
+            <div class="proyecto">
+              <img src="images/Encuesta.png" alt="Pong con HTML Canvas">
+              <div class="overlay">
+                <p>Encuesta con HTML</p>
+                <p><em>FreeCodeCamp - Diseño Web Responsivo</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/UriAcelga" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info w-75 mb-5">
+          Ver más proyectos 
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </a>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi">
+      <h2 class="section-title pt-4">Sobre mí</h2>
+      <h3 class="mx-4">Además de mi vocación por programar, me definen estos aspectos personales:</h3>
+      <p></p>
+      <div id="sobre-mi-carrusel" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item carrusel-img bg-img-1 active" data-bs-interval="10000">
+            <div class="overlay-carrusel estudios"></div>           
+            <div class="carousel-caption d-md-block">
+                <h5 class="h2">Estudios</h5>
+                <p>Estudio Ingeniería Electrónica con Orientación en Sistemas Digitales, en la Universidad Nacional de San Luis.</p>
+                <p>Además, he completado mis conocimientos de programación con los siguientes cursos:</p>
+                <ul class="list-unstyled">
+                  <li>Digitalers - Python Programming</li>
+                  <li>Argentina Programa (1ra Etapa)</li>
+                  <li>freeCodeCamp - Diseño Web Responsivo</li>
+                  <li>y más...</li>
+                </ul>
+            </div>
+          </div>
+          <div class="carousel-item carrusel-img bg-img-2" data-bs-interval="10000">
+            <div class="overlay-carrusel"></div>             
+            <div class="carousel-caption d-md-block">
+              <h5 class="h2">Hearthstone</h5>
+              <p>Juego Hearthstone desde 2017. Desde entonces, el cariño por el juego me ha llevado a un punto en el que me considero un jugador fuerte dentro de la comunidad latina, llegando incluso a obtener el top 300 de américa en Octubre de 2022.</p>
+              <p>Si bien considero que aún me falta mucho por aprender, en el camino he conseguido los siguientes logros competitivos:</p>
+              <ul class="list-unstyled">
+                <li>🥉 Barrens Noztormu TDF</li>
+                <li>🥈 Copa Doomhammer 50</li>
+              </ul>
+            </div>
+                    
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#sobre-mi-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#sobre-mi-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>           
+    </section>
+  </main>
+  <footer class="d-flex flex-column align-items-center justify-content-center">
+    <i class="bi bi-briefcase-fill fs-1" alt="logo"></i>
+    <p class="fs-2 mx-auto">"Aprendo y creo a diario"</p>
+    <p class="fs-3 mx-auto mb-0">¡Conozcámonos!</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center w-100">
+      <a href="https://twitter.com/AcelgaUri" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/UriAcelga" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/uriel-gomez-a200241a4/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="mailto:urigomez2002@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope-fill"></i>
+      </a>
+      </a>
+    </div>
+    <div><p class="derechos-de-autor">Creado por Uriel Gomez (2022) &#169</p></div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

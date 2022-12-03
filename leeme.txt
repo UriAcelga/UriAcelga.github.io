@@ -1,0 +1,2 @@
+Este portfolio se ha creado con conocimientos previos de HTML/CSS y siguiendo la guía de Bootstrap 5 de FreeCodeCamp en español por
+                    ~ Estefania Cassingena Navone ~
